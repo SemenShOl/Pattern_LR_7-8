@@ -98,11 +98,14 @@ legend {
 }
 
 /* Start */
-
+html {
+  height: 100vh;
+}
 body {
   font-family: 'Oswald', sans-serif;
   background-color: rgb(36, 38, 48);
   background: #eeeeee;
+  height: 100%;
 }
 
 p {
@@ -114,6 +117,8 @@ p {
   min-width: 1028px;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .title {
