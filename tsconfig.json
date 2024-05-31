@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES6",
+    "removeComments": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "lib": ["es2017", "dom"],
+    "forceConsistentCasingInFileNames": false,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
